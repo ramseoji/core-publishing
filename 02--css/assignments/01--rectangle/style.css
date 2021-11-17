@@ -1,0 +1,58 @@
+/* 이 부분은 중앙 정렬을 위한 코드입니다. 수정하지 않아도 됩니다. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.loading {
+    position: relative;
+
+    /* TODO: 가로와 세로 크기를 45 픽셀로 설정하세요. */
+
+
+}
+.loading span {
+    position: absolute;
+
+    /* TODO: 가로와 세로 크기를 15 픽셀로 설정하세요. */
+
+
+    /* TODO: identifier 가 loading 인 애니메이션을 추가하고, 1.5초로 설정하세요. */
+
+}
+.loading span:nth-child(?) {}
+.loading span:nth-child(?) {
+    /* TODO: 애니메이션의 딜레이를 0.8초로 설정하세요. */
+
+}
+
+/* TODO: p. 89, pp. 92-93 의 내용을 활용하여 loading keyframes 를 정의하세요. */
+@keyframes loading {
+    0%, 100% {
+        top: 0;
+        left: 0;
+        background-color: tomato;
+    }
+    25% {
+
+
+        background-color: goldenrod;
+    }
+    50% {
+
+
+        background-color: yellow;
+    }
+    75% {
+        top: calc(100% - 15px);
+        left: 0;
+        background-color: cyan;
+    }
+}
